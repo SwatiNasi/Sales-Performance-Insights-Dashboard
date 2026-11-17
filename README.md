@@ -1,60 +1,74 @@
-📊 Sales Performance Insights Dashboard
-📌 Overview
-This project is an interactive Sales Performance Dashboard built using Power BI. It analyzes sales data to uncover trends, track performance, and support data-driven decision-making.
+# 📊 Sales Performance & Revenue Insights Dashboard
 
-The dataset is sourced from Kaggle (Superstore Sales Dataset) and includes details on sales, profit, customers, and delivery.
+## 📌 Overview
 
-🎯 Objectives
-Monitor overall sales and profit performance
-Analyze monthly sales trends
-Identify top products, categories, and regions
-Understand customer segment contribution
-Evaluate the impact of discounts on profit
-Assess delivery performance
+This project is an interactive Sales Performance Dashboard built using Power BI. It analyzes sales data to understand business performance, identify trends, and uncover factors affecting profitability.
 
-🛠️ Tools & Dataset
-Power BI Desktop – Data cleaning, modeling, and visualization
-Dataset – Kaggle Superstore Sales Dataset
+The dataset is sourced from Kaggle (Superstore Sales Dataset) and includes details on sales, profit, customers, discounts, and delivery.
 
-📊 Key Insights
-Total Sales: 2.33M
-Total Profit: 292K
-Sales increase toward year-end, peaking in later months
-Technology category generates the highest revenue
-West region leads in sales performance
-Consumer segment contributes the most revenue
-Higher discounts often reduce profitability
-Medium delivery mode is most frequently used
+## 🎯 Objectives
 
-📈 Features
-Interactive slicers: Order Date, Region, Category
-Visualizations include:
-Sales trend over time
-Sales by category and region
-Top products by sales
-Segment-wise performance
-Profit vs Discount analysis
-Delivery performance
+- Monitor overall sales, profit, and profit margin.
+- Analyze sales trends over time.
+- Identify top-performing products, categories, and regions.
+- Understand customer segment contributions to sales.
+- Analyze the relationship between discounts and profit.
+- Assess delivery performance.
 
-💡 Business Value
-Helps optimize sales and pricing strategies
-Identifies high-performing regions and products
-Highlights risks of over-discounting
-Improves logistics and delivery planning
+## 🛠️ Tools & Dataset
 
-🚀 Future Enhancements
-Add sales forecasting
-Include profit margin KPIs
-Enable drill-through analysis
-Improve dashboard design with custom themes
+- Power BI Desktop – Dashboard development and visualization.
+- Power Query – Data cleaning and transformation.
+- DAX– Creating measures for sales, profit, and profit margin.
+- Dataset – Kaggle Superstore Sales Dataset.
 
-📂 Project Files
-Sales_Dashboard.pbix
-Dataset (Kaggle)
-README.md
+## 📊 Key Insights
 
-🧾 Usage
-Open the .pbix file in Power BI Desktop
-Use slicers to filter data
-Navigate between Overview and Analysis pages
-Interact with visuals to explore insights 
+- Total Sales: $2.33M
+- Total Profit: $292K
+- Profit Margin:12.56%
+- Technology recorded the highest profit margin at 17.44%.
+- Furniture recorded the lowest profit margin at 2.61%.
+- West region contributed the highest sales, approximately $739.8K.
+- Consumer segment contributed the highest sales, approximately $1.17M.
+- Higher discounts were generally associated with lower profitability.
+- Medium delivery mode was the most frequently used.
+
+## 📈 Features
+
+- Interactive slicers: Order Date, Region, and Category.
+- KPI cards for Total Sales, Total Profit, and Profit Margin.
+- Sales trends over time.
+- Sales analysis by category and region.
+- Top 10 products by sales.
+- Customer segment performance.
+- Profit and discount relationship analysis.
+- Delivery performance analysis.
+
+## 💡 Business Value
+
+- Helps monitor overall sales and profit performance.
+- Identifies high- and low-performing product categories.
+- Highlights regional and customer segment contributions.
+- Helps understand discount patterns and their relationship with profitability.
+- Supports better sales and pricing decisions.
+
+## 🚀 Future Enhancements
+
+- Add sales forecasting.
+- Implement drill-through analysis.
+- Include more detailed customer and product-level analysis.
+
+## 📂 Project Files
+
+- `Sales_Dashboard.pbix` – Power BI dashboard file.
+- Dataset – Kaggle Superstore Sales Dataset.
+- `README.md` – Project documentation.
+
+## 🧾 Usage
+
+1. Download or clone this repository.
+2. Open the `.pbix` file in Power BI Desktop.
+3. Use slicers to filter the data.
+4. Navigate between the Overview and Analysis pages.
+5. Interact with visuals to explore sales and profitability insights.
